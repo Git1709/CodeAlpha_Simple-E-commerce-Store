@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #00796b;
+    color: white;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  main {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+  }
+  
+  #checkout-cart {
+    flex: 3;
+    margin-right: 2em;
+  }
+  
+  #checkout-cart div {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 1em;
+    margin-bottom: 1em;
+  }
+  
+  #summary {
+    flex: 1;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 1em;
+    position: sticky;
+    top: 0;
+  }
+  
+  #summary h2 {
+    margin-top: 0;
+  }
+  
+  #summary p {
+    font-size: 1.2em;
+  }
+  

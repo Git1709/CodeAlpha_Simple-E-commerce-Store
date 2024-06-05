@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+}
+
+main {
+    padding: 2rem;
+    width: 50%;
+    margin: 50px auto;
+    text-align: center;
+}
+table{margin: 50px auto;
+}
+table,th,td{
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa;
+  }
+  header {
+    background-color: #00796b;
+    color: white;
+    padding: 1em;
+    text-align: center;
+  }
+  main {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+  }
+  #products {
+    flex: 2;
+    margin-right: 1em;
+  }
+  #cart {
+    flex: 1;
+    border: 1px solid #ccc;
+    padding: 1em;
+  }
+  #cart ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  #products div {
+    border: 1px solid #ccc;
+    padding: 1em;
+    margin-bottom: 1em;
+  }
+  body {
+  font-family: Arial, sans-serif;
+  background-color: #e0f7fa;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #00796b;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+#products {
+  flex: 2;
+  margin-right: 1em;
+}
+
+#cart {
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 1em;
+  position: sticky;
+  top: 0; /* This makes the cart stick to the top when scrolling */
+  background-color: #fff;
+}
+
+#cart ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#products div {
+  border: 1px solid #ccc;
+  padding: 1em;
+  margin-bottom: 1em;
+  background-color: #fff;
+}
